@@ -43,13 +43,13 @@ export default function SlideShow(){
         </div>
         <div className="slideshow-menu">
             <div>
-                <Button onClick={handleBack} variant={"secondary"}>{"\<\<"}</Button>
+                <Button onClick={handleBack} variant={"secondary"}>Start</Button>
                 <Button onClick={handlePre} variant={currentId<1?'disabled':''}>Pre</Button>
             </div>
             <h3>{currentId+1}/{LIMIT}</h3>
             <div>
                 <Button onClick={handleNext} variant={(currentId>=(LIMIT-1))?'disabled':''}>Next</Button>
-                <Button onClick={handleEnd} variant={"secondary"}>{"\>\>"}</Button>
+                <Button onClick={handleEnd} variant={"secondary"}>End</Button>
             </div>
         </div>
         <div className="slideshow-setting">
