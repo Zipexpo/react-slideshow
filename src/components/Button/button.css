@@ -1,0 +1,26 @@
+.button {
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: var(--text-contract-color);
+    border-radius: var(--round);
+    border: none;
+}
+
+.button:hover {
+    background-color: var(--primary-color-50);
+}
+
+.button.disabled {
+    background-color: var(--disable-color);
+    color: var(--text-color);
+    opacity: 0.8;
+    pointer-events: none;
+}
+
+.button.secondary {
+    background-color: var(--secondary-color);
+}
+
+.button.secondary:hover {
+    background-color: var(--secondary-color-50);
+}

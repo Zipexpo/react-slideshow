@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #026dcb;
+  --primary-color-50: #49a9fd;
+  --secondary-color: #ab00c5;
+  --secondary-color-50: #c269d0;
+  --text-color: #3a3a3a;
+  --text-contract-color: #ffffff;
+  --disable-color: #ddd;
+  --round: 0.3rem;
+}
+
+.App {
+  background-color: azure;
+  width: 100dvw;
+  height: 100dvh;
+  overflow: hidden;
+}
